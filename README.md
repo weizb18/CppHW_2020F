@@ -1,3 +1,3 @@
 # CppHW_2020F
-big homework for cpp course in 2020F
-hotel manager
+Project for cpp course in 2020F
+Hotel Manager
