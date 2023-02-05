@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>hotelpics/gugong.jpg</file>
+        <file>hotelpics/qingfen.jpg</file>
+        <file>hotelpics/tsinghua.jpg</file>
+        <file>hotelpics/zijing.jpg</file>
+        <file>rooms.txt</file>
+        <file>hotelpics/nopicture.jpg</file>
+        <file>hotelpics/thotel.png</file>
+    </qresource>
+</RCC>

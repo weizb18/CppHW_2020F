@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PfmPmtPage</class>
+ <widget class="QDialog" name="PfmPmtPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>741</width>
+     <height>471</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ToHomPageBtn">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>530</y>
+     <width>200</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Return to Homepage</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PassBtn">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>530</y>
+     <width>120</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pass</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

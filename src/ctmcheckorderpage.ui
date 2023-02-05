@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CtmCheckOrderPage</class>
+ <widget class="QDialog" name="CtmCheckOrderPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>80</y>
+     <width>885</width>
+     <height>400</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ExitBtn">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>530</y>
+     <width>120</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DateLabel">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>30</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="RefundBtn">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>540</y>
+     <width>90</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Refund</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PromptLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>510</y>
+     <width>401</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>no chosen order, the first order will be refunded.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CommentBtn">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>540</y>
+     <width>100</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Comment</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
